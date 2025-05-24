@@ -1298,155 +1298,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:ESD5Zxx"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESD5Zxx"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-523"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "ESD Protection Diode, SOD-523"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "esd tvs unidirectional diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D?SOD?523*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ESD5Zxx_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESD5Zxx_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Interface_USB:CP2102N-Axx-xQFN28"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2043,6 +1894,335 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Power_Protection:SP0503BAHT"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.715 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SP0503BAHT"
+				(at 5.715 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+				(at 5.715 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb esd protection suppression transient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?143*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SP0503BAHT_0_0"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SP0503BAHT_0_1"
+				(rectangle
+					(start -4.445 2.54)
+					(end 4.445 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 1.016) (xy -3.302 1.27) (xy -1.905 1.27) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -1.905 0) (xy -3.175 0) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy -0.762 1.27) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy -0.635 0) (xy 0 1.27) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.778 1.27) (xy 3.175 1.27) (xy 3.302 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 1.905 0) (xy 3.175 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SP0503BAHT_1_1"
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2754,6 +2934,10 @@
 		(uuid "49e1c4cb-ff50-4dd0-99ab-f7e0eacbe489")
 	)
 	(no_connect
+		(at 114.3 130.81)
+		(uuid "5a2d398f-c42c-4663-bbea-9cc1b5e1ac27")
+	)
+	(no_connect
 		(at 114.3 115.57)
 		(uuid "64ad15f3-635d-4143-8978-1ee22cbe5fda")
 	)
@@ -2809,16 +2993,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 152.4) (xy 22.86 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "003f57f2-b38f-4d8a-b96b-ccc92e0ab63c")
-	)
-	(wire
-		(pts
 			(xy 72.39 39.37) (xy 81.28 39.37)
 		)
 		(stroke
@@ -2836,26 +3010,6 @@
 			(type default)
 		)
 		(uuid "0af3bfa0-25c5-4a5d-8cf1-f19aaaeb7434")
-	)
-	(wire
-		(pts
-			(xy 44.45 163.83) (xy 44.45 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c33260d-b6a6-4ed5-b924-ca12977164ad")
-	)
-	(wire
-		(pts
-			(xy 34.29 152.4) (xy 34.29 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cbc9786-f982-4407-9445-bbb248f80b4c")
 	)
 	(wire
 		(pts
@@ -3019,16 +3173,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 163.83) (xy 34.29 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3af4061b-8d50-4003-9131-0b69f5561f4c")
-	)
-	(wire
-		(pts
 			(xy 165.1 36.83) (xy 165.1 43.18)
 		)
 		(stroke
@@ -3149,6 +3293,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 106.68) (xy 219.71 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "589c3236-9031-44a0-b416-21b2aadc4f4f")
+	)
+	(wire
+		(pts
 			(xy 39.37 77.47) (xy 39.37 78.74)
 		)
 		(stroke
@@ -3156,16 +3310,6 @@
 			(type default)
 		)
 		(uuid "5ad6c4ef-e05e-4964-9ab1-c42300182648")
-	)
-	(wire
-		(pts
-			(xy 22.86 163.83) (xy 22.86 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c9f5bcc-2f7c-43e0-9801-c42bfe1831b0")
 	)
 	(wire
 		(pts
@@ -3216,6 +3360,16 @@
 			(type default)
 		)
 		(uuid "630de7be-f6fd-4c40-8c79-3b88ec004bea")
+	)
+	(wire
+		(pts
+			(xy 217.17 106.68) (xy 217.17 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64dadd42-2b59-4146-89b5-20c1fb98db99")
 	)
 	(wire
 		(pts
@@ -3286,16 +3440,6 @@
 			(type default)
 		)
 		(uuid "76f3f838-c7ed-4974-8d4e-510d2332121a")
-	)
-	(wire
-		(pts
-			(xy 44.45 152.4) (xy 44.45 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "775c394f-135c-48e2-89a3-68952bac73a9")
 	)
 	(wire
 		(pts
@@ -3426,6 +3570,16 @@
 			(type default)
 		)
 		(uuid "9c2225c5-571b-4aee-8e45-adc2a6dc161d")
+	)
+	(wire
+		(pts
+			(xy 222.25 106.68) (xy 222.25 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c34e8bd-bc4c-41cc-a4dd-5294d7bbcf4c")
 	)
 	(wire
 		(pts
@@ -3579,6 +3733,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 120.65) (xy 219.71 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6fe7c36-c964-4072-a763-615bc42a6580")
+	)
+	(wire
+		(pts
 			(xy 120.65 133.35) (xy 130.81 133.35)
 		)
 		(stroke
@@ -3698,7 +3862,7 @@
 		(uuid "ffafffc5-a989-4ba9-b852-b0a7919a7979")
 	)
 	(label "USB_DP"
-		(at 34.29 152.4 90)
+		(at 219.71 106.68 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3707,7 +3871,7 @@
 		)
 		(uuid "04a73479-6f23-45ce-bda9-0a3a580ae8e3")
 	)
-	(label "USB_DM"
+	(label "USB_DP"
 		(at 67.31 125.73 0)
 		(effects
 			(font
@@ -3737,7 +3901,7 @@
 		)
 		(uuid "d8f315ea-7a18-4987-9b82-348047ae264b")
 	)
-	(label "USB_DP"
+	(label "USB_DM"
 		(at 67.31 123.19 0)
 		(effects
 			(font
@@ -3748,7 +3912,7 @@
 		(uuid "eba7818b-733a-4e87-a80f-4934e8e1b827")
 	)
 	(label "USB_DM"
-		(at 44.45 152.4 90)
+		(at 222.25 106.68 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3934,6 +4098,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 219.71 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "163a99c8-a302-4429-ac4a-51d9e3f4bfe6")
+		(property "Reference" "#PWR053"
+			(at 219.71 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd4237da-65be-43e7-8fbe-14c866163ac3")
+		)
+		(instances
+			(project "esp32-c3"
+				(path "/6a3a9d0a-4498-41f6-851d-44654e1709ee/445eb0f4-7152-49e7-a44d-603acd681a47"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 39.37 54.61 0)
 		(unit 1)
@@ -3978,6 +4208,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 39.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2894897"
 			(at 39.37 54.61 0)
 			(effects
 				(font
@@ -4338,7 +4577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 228.2952 52.07 0)
 			(effects
 				(font
@@ -4435,6 +4674,15 @@
 			)
 		)
 		(property "Description" "USB to UART master bridge, QFN-28"
+			(at 93.98 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C964632"
 			(at 93.98 135.89 0)
 			(effects
 				(font
@@ -4672,141 +4920,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ESD5Zxx")
-		(at 22.86 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "463a93d4-5c04-4047-8f9c-ca2bce920855")
-		(property "Reference" "D3"
-			(at 25.4 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LESD5D5.0CT1G-ES"
-			(at 19.558 152.146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 18.415 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 22.86 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 22.86 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10acf2b3-cbb4-4a41-b7e0-eaac4ae5bc60")
-		)
-		(pin "2"
-			(uuid "80be83e6-8ac1-4d0d-8554-e737ab4c411a")
-		)
-		(instances
-			(project ""
-				(path "/6a3a9d0a-4498-41f6-851d-44654e1709ee/445eb0f4-7152-49e7-a44d-603acd681a47"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 34.29 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46e6754d-210d-4b6e-87d8-3bf04ff2ed61")
-		(property "Reference" "#PWR015"
-			(at 34.29 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.29 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f816128-80f1-40b0-a203-eb5d8c45f230")
-		)
-		(instances
-			(project "esp32-c3"
-				(path "/6a3a9d0a-4498-41f6-851d-44654e1709ee/445eb0f4-7152-49e7-a44d-603acd681a47"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 39.37 81.28 0)
 		(unit 1)
@@ -4939,6 +5052,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:SP0503BAHT")
+		(at 219.71 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f8539b8-9204-40c9-9c47-5b77cee21868")
+		(property "Reference" "D8"
+			(at 226.06 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SP0503BAHT"
+			(at 226.06 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 225.425 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
+			(at 222.885 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3040626"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c9adb0ce-c923-4d9c-a509-78ef0a41f55d")
+		)
+		(pin "3"
+			(uuid "5ef53a3a-bde7-46f0-aa25-e56d67aeb7d1")
+		)
+		(pin "4"
+			(uuid "88767370-314f-4fbc-835b-8bfd57fac00e")
+		)
+		(pin "1"
+			(uuid "2b8b5c4a-a0b5-4bf1-b1cd-b6825e993019")
+		)
+		(instances
+			(project ""
+				(path "/6a3a9d0a-4498-41f6-851d-44654e1709ee/445eb0f4-7152-49e7-a44d-603acd681a47"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 64.77 44.45 90)
 		(unit 1)
@@ -5000,72 +5199,6 @@
 			(project ""
 				(path "/6a3a9d0a-4498-41f6-851d-44654e1709ee/445eb0f4-7152-49e7-a44d-603acd681a47"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 44.45 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6510c0eb-950a-45cf-8bc2-e26793f190e5")
-		(property "Reference" "#PWR017"
-			(at 44.45 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5cd5bfb-e830-417c-b57c-3ac523a18966")
-		)
-		(instances
-			(project "esp32-c3"
-				(path "/6a3a9d0a-4498-41f6-851d-44654e1709ee/445eb0f4-7152-49e7-a44d-603acd681a47"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5155,7 +5288,7 @@
 				)
 			)
 		)
-		(property "Value" "46.5K"
+		(property "Value" "43K"
 			(at 58.674 126.746 90)
 			(effects
 				(font
@@ -5459,6 +5592,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1b1b5b82-3262-4fec-975d-36c7f3d24aad")
 		)
@@ -5469,75 +5620,6 @@
 			(project ""
 				(path "/6a3a9d0a-4498-41f6-851d-44654e1709ee/445eb0f4-7152-49e7-a44d-603acd681a47"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD5Zxx")
-		(at 34.29 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a5bb7ffc-60a3-4897-871a-71356294d029")
-		(property "Reference" "D4"
-			(at 36.83 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LESD5D5.0CT1G-ES"
-			(at 30.988 152.146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 29.845 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 34.29 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 34.29 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ef1ce13-ad95-42a1-b241-33d47a353f01")
-		)
-		(pin "2"
-			(uuid "c6f5f4ad-7392-4477-972d-30b6883f68f6")
-		)
-		(instances
-			(project "esp32-c3"
-				(path "/6a3a9d0a-4498-41f6-851d-44654e1709ee/445eb0f4-7152-49e7-a44d-603acd681a47"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5827,72 +5909,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 22.86 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cdb98c99-8821-48e2-9572-c29870ea9511")
-		(property "Reference" "#PWR014"
-			(at 22.86 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 22.86 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9238aefd-c39d-4cde-9cc5-a32b33abb72d")
-		)
-		(instances
-			(project "esp32-c3"
-				(path "/6a3a9d0a-4498-41f6-851d-44654e1709ee/445eb0f4-7152-49e7-a44d-603acd681a47"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 210.82 48.26 0)
 		(unit 1)
@@ -6125,86 +6141,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ESD5Zxx")
-		(at 44.45 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e846f7f3-b4e3-43dc-afc2-b2a69768c959")
-		(property "Reference" "D5"
-			(at 46.99 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LESD5D5.0CT1G-ES"
-			(at 41.148 152.146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 40.005 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 44.45 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 44.45 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6c447da-06a5-4336-875d-d6c7f8341b5f")
-		)
-		(pin "2"
-			(uuid "c7528f82-46e5-4ce5-a1c3-4c0bcdccdb06")
-		)
-		(instances
-			(project "esp32-c3"
-				(path "/6a3a9d0a-4498-41f6-851d-44654e1709ee/445eb0f4-7152-49e7-a44d-603acd681a47"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5VP")
-		(at 22.86 152.4 0)
+		(at 217.17 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e8fbdff1-d859-4fd9-b09e-2a778334f7af")
 		(property "Reference" "#PWR013"
-			(at 22.86 156.21 0)
+			(at 217.17 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6213,7 +6159,7 @@
 			)
 		)
 		(property "Value" "+5VP"
-			(at 22.86 147.32 0)
+			(at 213.106 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +6167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 152.4 0)
+			(at 217.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,7 +6176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 152.4 0)
+			(at 217.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6239,7 +6185,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 22.86 152.4 0)
+			(at 217.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6215,7 @@
 		(dnp no)
 		(uuid "edafdeb9-bcb8-4dfc-8881-2042a8cd40f3")
 		(property "Reference" "R10"
-			(at 115.57 131.064 90)
+			(at 121.666 132.334 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1592,7 +1592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 133.0452 78.74 0)
 			(effects
 				(font
@@ -1745,7 +1745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 73.3552 87.63 0)
 			(effects
 				(font
@@ -1879,7 +1879,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6c77c3c6-ae85-486c-97f0-13ec5517d5ac")
 		(property "Reference" "C9"
 			(at 59.69 81.6609 0)
@@ -1890,8 +1889,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
-			(at 59.69 84.2009 0)
+		(property "Value" "EEFCX0J221YR"
+			(at 48.768 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +1898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X"
+		(property "Footprint" "local:CP_SMD_4.3x7.3mm"
 			(at 56.8452 87.63 0)
 			(effects
 				(font
@@ -1926,7 +1925,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7231"
+		(property "LCSC" "C1414444"
 			(at 55.88 83.82 0)
 			(effects
 				(font
@@ -2235,7 +2234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.3452 78.74 0)
 			(effects
 				(font
